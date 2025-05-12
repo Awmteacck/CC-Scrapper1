@@ -153,7 +153,7 @@ async def send_results(client, message, unique_messages, duplicates_removed, sou
 
 async def get_user_link(message):
     if message.from_user is None:
-        return '<a href="https://t.me/ItsSmartToolBot">Smart Tool</a>'
+        return '<a href="https://t.me/Awmtee">Awmtea Polythene</a>'
     else:
         user_first_name = message.from_user.first_name
         user_last_name = message.from_user.last_name or ""
