@@ -34,14 +34,14 @@ app = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    workers=1000
+    workers=10000
 )
 
 # Initialize User Client With Workers
 user = Client(
     "user_session",
     session_string=SESSION_STRING,
-    workers=1000
+    workers=10000
 )
 
 
